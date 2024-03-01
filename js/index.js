@@ -27,9 +27,9 @@ const fetchCategories = () =>{
                 fetchDataByCategories(card.category_id)
                 const allBtns = document.querySelectorAll('.category-btn')
                 for(const btn of allBtns){
-                    btn.classList.remove('bg-yellow-500')
+                    btn.classList.remove('bg-[#FF1F3D]')
                 }
-                newBtn.classList.add('bg-yellow-500')
+                newBtn.classList.add('bg-[#FF1F3D]')
             })
             btnContainer.appendChild(newBtn)
         })
