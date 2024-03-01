@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.line{
+    margin: 15px 0 15px 0;
+    height: 2px;
+    position: relative;
+    border-top: 1px solid rgba(3, 7, 18, 0.2);
+    box-sizing: border-box;
+    z-index: 3;
+}
